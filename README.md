@@ -12,7 +12,7 @@ CTF Platforms
   <img src="https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" />
 </a>
 &nbsp;
-<a href="https://tryhackme.com/p/ghaith.awni0">
+<a href="https://tryhackme.com/p/atrix.187">
   <img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
 </a>
 
