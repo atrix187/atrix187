@@ -1,16 +1,22 @@
-## Hi there 👋
+Hey, I'm Ghaith
+Cybersecurity student at Al-Ahliyya Amman University, focused on web application security and CTFs.
 
-<!--
-**atrix187/atrix187** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Focus Areas
 
-Here are some ideas to get you started:
+Web Application Security
+CTF Competitions (HTB, THM, PicoCTF)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+CTF Platforms
+<a href="https://profile.hackthebox.com/profile/019ddf9a-bf86-725f-9fe8-ceba25699535">
+  <img src="https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" />
+</a>
+&nbsp;
+<a href="https://tryhackme.com/p/ghaith.awni0">
+  <img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
+</a>
+
+Connect
+<a href="https://www.linkedin.com/in/ghaith-al-bayati-a2b57140b/">
+  <img src="https://img.shields.io/badge/LinkedIn-Ghaith%20Al--Bayati-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
