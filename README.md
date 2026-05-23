@@ -1,10 +1,8 @@
-Hey, I'm Ghaith
-Cybersecurity student at Al-Ahliyya Amman University, focused on web application security and CTFs.
+I am an IT student at Al-Ahliyya Amman University specializing in cybersecurity and offensive operations. My focus is primarily centered on web exploitation and penetration testing, analyzing application logic flaws, and understanding structural vulnerabilities.
+I spend most of my technical time in hands-on environments, continuously learning by breaking down lab machines and actively competing in the CTF scene to test and refine my methodology against real-world attack paths.
+Focus areas: Web Application Security | Red Teaming | Infrastructure Enumeration
 
-Focus Areas
 
-Web Application Security
-CTF Competitions (HTB, THM, PicoCTF)
 
 
 CTF Platforms
