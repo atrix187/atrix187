@@ -1,86 +1,228 @@
-                         atrix187
-              offensive security / research
+<div align="center">
 
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  root@atrix:~$ whoami                                       │
-│                                                             │
-│  atrix187                                                   │
-│  Web Exploitation / Vulnerability Research / Red Team       │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+# `atrix187`
 
+**offensive security · vulnerability research · web exploitation**
 
-01 // IDENTITY
+`Web Applications` &nbsp;·&nbsp; `Source Code Auditing` &nbsp;·&nbsp; `Red Teaming`
 
-root@atrix:~$ cat identity
+<br>
 
-Security researcher focused on breaking applications,
-understanding vulnerabilities, and turning interesting
-bugs into reproducible attack chains.
+<a href="https://github.com/atrix187">
+  <img src="https://komarev.com/ghpvc/?username=atrix187&label=PROFILE%20VIEWS&color=0d1117&style=flat-square" alt="Profile views">
+</a>
+&nbsp;
+<a href="https://github.com/AAUC2">
+  <img src="https://img.shields.io/badge/AAUC2-0d1117?style=flat-square&logo=github&logoColor=white" alt="AAUC2">
+</a>
+&nbsp;
+<a href="https://www.hackthebox.com">
+  <img src="https://img.shields.io/badge/HACK%20THE%20BOX-0d1117?style=flat-square&logo=hackthebox&logoColor=9fef00" alt="Hack The Box">
+</a>
 
+</div>
 
-02 // CURRENT OPERATIONS
+---
 
-root@atrix:~$ ps aux | grep security
+<table>
+<tr>
+<td width="58%" valign="top">
 
-[RUNNING]  Web Application Exploitation
-[RUNNING]  Vulnerability Research
-[RUNNING]  Source Code Auditing
-[RUNNING]  Red Teaming
-[RUNNING]  Hack The Box
+## `01 // PROFILE`
 
+```text
+atrix187
 
-03 // ARSENAL
+offensive security researcher
+focused on breaking applications,
+understanding vulnerabilities,
+and building practical attack chains.
 
-root@atrix:~$ pacman -Q
+PRIMARY
+  web exploitation
+  vulnerability research
+  source code auditing
+  red teaming
 
-python        bash          javascript
-c/c++        burp-suite    ghidra
-nmap          ffuf          docker
-kali-linux   hack-the-box
+CURRENT
+  Hack The Box
+  security research
+  exploit development
+  CTF / lab work
+```
 
+</td>
+<td width="42%" valign="top">
 
-04 // HACK THE BOX
+## `02 // TELEMETRY`
 
-root@atrix:~$ htb --status
+<p align="center">
+  <img src="https://htb-badge.vercel.app/api/profile/overview?username=atrix187&theme=dark" alt="Hack The Box statistics">
+</p>
 
-Professional
-Pro Hacker — Level 48
-Global Rank #690
-Team Rank #8
+```text
+HTB
+  Professional
+  Pro Hacker — Level 48
+  Global Rank #690
+  Team Rank #8
+```
 
+</td>
+</tr>
+</table>
 
-05 // RESEARCH
+---
 
-root@atrix:~$ ls ~/research
+## `03 // RESEARCH`
 
-CVE-2025-58434
-CVE-2025-8110
-CVE-2025-59528
+<table>
+<tr>
+<td width="33%" align="center">
 
+### `CVE-2025-58434`
 
-06 // WRITEUPS
+Vulnerability research
 
-root@atrix:~$ cat ~/writeups
+Root-cause analysis
 
-Silentium
-  Flowise RCE → Gogs Symlink RCE
+Exploit development
 
-Logging
-  SMB → Shadow Credentials → DLL Hijacking
-  → ESC17 → DNS → Rogue WSUS
+</td>
+<td width="33%" align="center">
 
+### `CVE-2025-59528`
 
-07 // JOURNAL
+Flowise RCE
 
-root@atrix:~$ tail -f ~/journal
+Web application exploitation
 
-[+] breaking things
-[+] reading source
-[+] researching vulnerabilities
-[+] building exploits
-[+] documenting findings
+Attack-chain research
 
+</td>
+<td width="33%" align="center">
 
-root@atrix:~$ _
+### `CVE-2025-8110`
+
+Gogs Symlink RCE
+
+Filesystem abuse
+
+Chained exploitation
+
+</td>
+</tr>
+</table>
+
+---
+
+## `04 // SELECTED WRITEUPS`
+
+```text
+┌──────────────────────────────────────────────────────────────────────────┐
+│ SILENTIUM  /  HTB                                                       │
+│                                                                          │
+│ Flowise RCE  ────────────────────────────────>  Gogs Symlink RCE         │
+│ CVE-2025-59528                                  CVE-2025-8110            │
+│                                                                          │
+│ WEB / LINUX                                                              │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
+```text
+┌──────────────────────────────────────────────────────────────────────────┐
+│ LOGGING  /  HTB                                                         │
+│                                                                          │
+│ SMB ──> Shadow Credentials ──> DLL Hijacking ──> ESC17                  │
+│                                      │                                   │
+│                                      └────> DNS ──> Rogue WSUS ──> ROOT  │
+│                                                                          │
+│ WINDOWS / ACTIVE DIRECTORY                                               │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## `05 // TOOLCHAIN`
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB">
+<img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E">
+<img src="https://img.shields.io/badge/C%2FC%2B%2B-0d1117?style=flat-square&logo=cplusplus&logoColor=00599C">
+
+<br>
+
+<img src="https://img.shields.io/badge/Burp_Suite_Pro-0d1117?style=flat-square&logo=burpsuite&logoColor=FF6633">
+<img src="https://img.shields.io/badge/Ghidra-0d1117?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/Nmap-0d1117?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/FFUF-0d1117?style=flat-square&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED">
+<img src="https://img.shields.io/badge/Kali_Linux-0d1117?style=flat-square&logo=kalilinux&logoColor=557C94">
+
+</p>
+
+---
+
+## `06 // GITHUB ACTIVITY`
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=atrix187&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FFFFFF&icon_color=8B949E&text_color=8B949E&rank_icon=github" height="170" alt="GitHub statistics">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atrix187&layout=compact&hide_border=true&bg_color=0D1117&title_color=FFFFFF&text_color=8B949E" height="170" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=atrix187&theme=dark&hide_border=true&background=0D1117&ring=8B949E&fire=FFFFFF&currStreakLabel=FFFFFF" alt="GitHub streak">
+</p>
+
+---
+
+## `07 // METHODOLOGY`
+
+```text
+RECON
+  ↓
+ENUMERATION
+  ↓
+SOURCE / BINARY ANALYSIS
+  ↓
+VULNERABILITY IDENTIFICATION
+  ↓
+EXPLOITATION
+  ↓
+CHAINING
+  ↓
+ROOT-CAUSE ANALYSIS
+  ↓
+DOCUMENTATION
+```
+
+> The interesting part is rarely the shell.
+> The interesting part is understanding why the shell was possible.
+
+---
+
+## `08 // AFFILIATION`
+
+<p align="center">
+
+<a href="https://github.com/AAUC2">
+  <img src="https://img.shields.io/badge/AAUC2-Cybersecurity%20Department%20%2F%20AAU-0d1117?style=for-the-badge&logo=github&logoColor=white">
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/Jordan-%23JO-0d1117?style=for-the-badge">
+
+</p>
+
+---
+
+<div align="center">
+
+```text
+research  //  exploit  //  understand  //  document
+```
+
+<a href="https://github.com/atrix187">github.com/atrix187</a>
+
+</div>
