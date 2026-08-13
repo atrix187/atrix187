@@ -1,0 +1,186 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg" width="900" height="320">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080c10;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Metallic silver gradient for text -->
+    <linearGradient id="silverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8eaed;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#c0c7d0;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#8a94a0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b7684;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Accent gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a9eff;stop-opacity:0" />
+      <stop offset="30%" style="stop-color:#4a9eff;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:0" />
+    </linearGradient>
+
+    <!-- Scanline overlay -->
+    <pattern id="scanlines" x="0" y="0" width="1" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="rgba(255,255,255,0.012)" />
+      <rect y="1" width="1" height="2" fill="transparent" />
+    </pattern>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle glow for lines -->
+    <filter id="lineGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="900" height="320" fill="url(#bgGrad)" rx="6"/>
+
+  <!-- Scanline overlay -->
+  <rect width="900" height="320" fill="url(#scanlines)" rx="6"/>
+
+  <!-- Top border line with glow -->
+  <line x1="0" y1="0" x2="900" y2="0" stroke="url(#accentGrad)" stroke-width="1" filter="url(#lineGlow)" rx="6"/>
+
+  <!-- Grid lines - vertical subtle -->
+  <line x1="300" y1="20" x2="300" y2="300" stroke="#1e2530" stroke-width="0.5"/>
+  <line x1="600" y1="20" x2="600" y2="300" stroke="#1e2530" stroke-width="0.5"/>
+
+  <!-- Horizontal dividers -->
+  <line x1="40" y1="100" x2="860" y2="100" stroke="#1e2530" stroke-width="0.5"/>
+  <line x1="40" y1="220" x2="860" y2="220" stroke="#1e2530" stroke-width="0.5"/>
+
+  <!-- Corner marks top-left -->
+  <path d="M 20 40 L 20 20 L 40 20" fill="none" stroke="#4a9eff" stroke-width="1.5" opacity="0.8"/>
+  <!-- Corner marks top-right -->
+  <path d="M 880 40 L 880 20 L 860 20" fill="none" stroke="#4a9eff" stroke-width="1.5" opacity="0.8"/>
+  <!-- Corner marks bottom-left -->
+  <path d="M 20 280 L 20 300 L 40 300" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.8"/>
+  <!-- Corner marks bottom-right -->
+  <path d="M 880 280 L 880 300 L 860 300" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- System label top left -->
+  <text x="28" y="16" font-family="'Courier New', monospace" font-size="8" fill="#4a9eff" opacity="0.7" letter-spacing="2">SYS://ATRIX187.PROFILE</text>
+  <!-- Status top right -->
+  <text x="870" y="16" font-family="'Courier New', monospace" font-size="8" fill="#4a9eff" opacity="0.7" letter-spacing="2" text-anchor="end">STATUS: ACTIVE</text>
+
+  <!-- Main name — large, metallic -->
+  <text x="450" y="80" font-family="'Courier New', monospace" font-size="52" font-weight="700"
+        fill="url(#silverGrad)" text-anchor="middle" letter-spacing="12"
+        filter="url(#textGlow)">ATRIX187</text>
+
+  <!-- Subtitle line -->
+  <text x="450" y="108" font-family="'Courier New', monospace" font-size="10" fill="#4a9eff"
+        text-anchor="middle" letter-spacing="6" opacity="0.9">OFFENSIVE SECURITY / WEB EXPLOITATION / RESEARCH</text>
+
+  <!-- Animated accent line under name -->
+  <rect x="200" y="114" width="500" height="1" fill="url(#accentGrad)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- LEFT PANEL — HTB Stats -->
+  <text x="60" y="148" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" letter-spacing="3">HACK THE BOX</text>
+
+  <text x="60" y="172" font-family="'Courier New', monospace" font-size="11" fill="#c0c7d0" letter-spacing="1">LVL</text>
+  <text x="100" y="172" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e8eaed" filter="url(#glow)">48</text>
+
+  <text x="60" y="192" font-family="'Courier New', monospace" font-size="9" fill="#8a94a0" letter-spacing="1">PROFESSIONAL RANK</text>
+
+  <text x="60" y="210" font-family="'Courier New', monospace" font-size="9" fill="#4a9eff" letter-spacing="1">#690 GLOBAL · #8 TEAM</text>
+
+  <!-- HTB Progress bar -->
+  <rect x="60" y="216" width="180" height="2" fill="#1e2530" rx="1"/>
+  <rect x="60" y="216" width="107" height="2" fill="#4a9eff" rx="1" opacity="0.9">
+    <animate attributeName="width" values="80;107;107" dur="2s" begin="0.5s" fill="freeze"/>
+  </rect>
+  <text x="60" y="228" font-family="'Courier New', monospace" font-size="7" fill="#4a9eff" opacity="0.6">748 / 1239 XP · 71% TIER</text>
+
+  <!-- Streak indicator -->
+  <text x="60" y="248" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" letter-spacing="2">STREAK</text>
+  <text x="60" y="264" font-family="'Courier New', monospace" font-size="16" font-weight="700" fill="#f0a500">12W</text>
+  <text x="96" y="264" font-family="'Courier New', monospace" font-size="8" fill="#8a94a0"> CONSECUTIVE</text>
+
+  <!-- CENTER PANEL — Operations Summary -->
+  <text x="450" y="148" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" letter-spacing="3" text-anchor="middle">OPERATIONS</text>
+
+  <!-- Stats row -->
+  <text x="330" y="172" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e8eaed" text-anchor="middle">25</text>
+  <text x="330" y="185" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" text-anchor="middle" letter-spacing="1">MACHINES</text>
+
+  <text x="450" y="172" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e8eaed" text-anchor="middle">22</text>
+  <text x="450" y="185" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" text-anchor="middle" letter-spacing="1">CHALLENGES</text>
+
+  <text x="570" y="172" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e8eaed" text-anchor="middle">6</text>
+  <text x="570" y="185" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" text-anchor="middle" letter-spacing="1">SHERLOCKS</text>
+
+  <!-- Animated cursor blink -->
+  <rect x="430" y="206" width="8" height="14" fill="#4a9eff" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="448" y="218" font-family="'Courier New', monospace" font-size="10" fill="#4a9eff" opacity="0.5">_</text>
+
+  <text x="300" y="250" font-family="'Courier New', monospace" font-size="8" fill="#8a94a0" text-anchor="middle">WEB</text>
+  <text x="380" y="250" font-family="'Courier New', monospace" font-size="8" fill="#8a94a0" text-anchor="middle">AD</text>
+  <text x="460" y="250" font-family="'Courier New', monospace" font-size="8" fill="#8a94a0" text-anchor="middle">LINUX</text>
+  <text x="540" y="250" font-family="'Courier New', monospace" font-size="8" fill="#8a94a0" text-anchor="middle">CVE</text>
+  <text x="620" y="250" font-family="'Courier New', monospace" font-size="8" fill="#8a94a0" text-anchor="middle">RECON</text>
+
+  <!-- mini bars -->
+  <rect x="280" y="255" width="40" height="3" fill="#1e2530" rx="1"/>
+  <rect x="280" y="255" width="36" height="3" fill="#4a9eff" rx="1" opacity="0.8"/>
+
+  <rect x="360" y="255" width="40" height="3" fill="#1e2530" rx="1"/>
+  <rect x="360" y="255" width="28" height="3" fill="#a78bfa" rx="1" opacity="0.8"/>
+
+  <rect x="440" y="255" width="40" height="3" fill="#1e2530" rx="1"/>
+  <rect x="440" y="255" width="32" height="3" fill="#4a9eff" rx="1" opacity="0.8"/>
+
+  <rect x="520" y="255" width="40" height="3" fill="#1e2530" rx="1"/>
+  <rect x="520" y="255" width="22" height="3" fill="#f0a500" rx="1" opacity="0.8"/>
+
+  <rect x="600" y="255" width="40" height="3" fill="#1e2530" rx="1"/>
+  <rect x="600" y="255" width="38" height="3" fill="#4a9eff" rx="1" opacity="0.8"/>
+
+  <!-- RIGHT PANEL — Focus areas -->
+  <text x="840" y="148" font-family="'Courier New', monospace" font-size="7" fill="#6b7684" letter-spacing="3" text-anchor="end">FOCUS</text>
+
+  <text x="840" y="170" font-family="'Courier New', monospace" font-size="9" fill="#c0c7d0" text-anchor="end" letter-spacing="1">WEB EXPLOITATION</text>
+  <text x="840" y="186" font-family="'Courier New', monospace" font-size="9" fill="#c0c7d0" text-anchor="end" letter-spacing="1">ACTIVE DIRECTORY</text>
+  <text x="840" y="202" font-family="'Courier New', monospace" font-size="9" fill="#c0c7d0" text-anchor="end" letter-spacing="1">SOURCE AUDITING</text>
+  <text x="840" y="218" font-family="'Courier New', monospace" font-size="9" fill="#c0c7d0" text-anchor="end" letter-spacing="1">CVE EXPLOITATION</text>
+  <text x="840" y="234" font-family="'Courier New', monospace" font-size="9" fill="#c0c7d0" text-anchor="end" letter-spacing="1">RED TEAMING</text>
+
+  <!-- Country tag -->
+  <text x="840" y="264" font-family="'Courier New', monospace" font-size="11" fill="#4a9eff" text-anchor="end" opacity="0.8">#JO · JORDAN</text>
+
+  <!-- Animated scanning line across full width -->
+  <rect x="0" y="0" width="900" height="1.5" fill="url(#accentGrad)" opacity="0">
+    <animate attributeName="y" values="-2;322" dur="6s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.15;0.15;0" keyTimes="0;0.05;0.95;1" dur="6s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+
+  <!-- Bottom tag line -->
+  <text x="450" y="308" font-family="'Courier New', monospace" font-size="8" fill="#3a4450" text-anchor="middle" letter-spacing="4">BREAK · ANALYZE · UNDERSTAND</text>
+</svg>
