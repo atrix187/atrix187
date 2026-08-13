@@ -72,76 +72,6 @@ HTB
 </tr>
 </table>
 
----
-
-## `03 // RESEARCH`
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### `CVE-2025-58434`
-
-Vulnerability research
-
-Root-cause analysis
-
-Exploit development
-
-</td>
-<td width="33%" align="center">
-
-### `CVE-2025-59528`
-
-Flowise RCE
-
-Web application exploitation
-
-Attack-chain research
-
-</td>
-<td width="33%" align="center">
-
-### `CVE-2025-8110`
-
-Gogs Symlink RCE
-
-Filesystem abuse
-
-Chained exploitation
-
-</td>
-</tr>
-</table>
-
----
-
-## `04 // SELECTED WRITEUPS`
-
-```text
-┌──────────────────────────────────────────────────────────────────────────┐
-│ SILENTIUM  /  HTB                                                       │
-│                                                                          │
-│ Flowise RCE  ────────────────────────────────>  Gogs Symlink RCE         │
-│ CVE-2025-59528                                  CVE-2025-8110            │
-│                                                                          │
-│ WEB / LINUX                                                              │
-└──────────────────────────────────────────────────────────────────────────┘
-```
-
-```text
-┌──────────────────────────────────────────────────────────────────────────┐
-│ LOGGING  /  HTB                                                         │
-│                                                                          │
-│ SMB ──> Shadow Credentials ──> DLL Hijacking ──> ESC17                  │
-│                                      │                                   │
-│                                      └────> DNS ──> Rogue WSUS ──> ROOT  │
-│                                                                          │
-│ WINDOWS / ACTIVE DIRECTORY                                               │
-└──────────────────────────────────────────────────────────────────────────┘
-```
-
----
 
 ## `05 // TOOLCHAIN`
 
@@ -149,8 +79,6 @@ Chained exploitation
 
 <img src="https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB">
 <img src="https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E">
-<img src="https://img.shields.io/badge/C%2FC%2B%2B-0d1117?style=flat-square&logo=cplusplus&logoColor=00599C">
 
 <br>
 
