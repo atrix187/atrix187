@@ -1,23 +1,24 @@
-I am an IT student at Al-Ahliyya Amman University specializing in cybersecurity and offensive operations. My focus is primarily centered on web exploitation and penetration testing, analyzing application logic flaws, and understanding structural vulnerabilities.
-I spend most of my technical time in hands-on environments, continuously learning by breaking down lab machines and actively competing in the CTF scene to test and refine my methodology against real-world attack paths.
+<div align="center">
 
-Focus areas: Web Application Security | Red Teaming | Infrastructure Enumeration
+  <!-- Dynamic Header -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00F0FF&center=true&vcenter=true&width=700&height=70&lines=ATRIX187+//+WEB+EXPLOITATION;SECURITY+RESEARCHER+%E2%80%A2+CTF+PLAYER;TEAM+LEADER+%40+NX+(HTB)" alt="Typing SVG" />
+  </a>
 
+  <p align="center">
+    <code><b>[!] ROLE: WEB EXPLOITATION & RESEARCH</b></code> &nbsp;|&nbsp; 
+    <code><b>TEAM: NX</b></code>
+  </p>
 
+</div>
 
+---
 
-CTF Platforms
+### // PROFILE OVERVIEW
 
-<a href="https://profile.hackthebox.com/profile/019ddf9a-bf86-725f-9fe8-ceba25699535">
-  <img src="https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black" />
-</a>
-&nbsp;
-<a href="https://tryhackme.com/p/atrix.187">
-  <img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white" />
-</a>
-
-Connect
-
-<a href="https://www.linkedin.com/in/ghaith-al-bayati-a2b57140b/">
-  <img src="https://img.shields.io/badge/LinkedIn-Ghaith%20Al--Bayati-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+```powershell
+[Operator Profile: atrix187]
+├── Focus: Web Application Exploitation & Vulnerability Analysis
+├── Role: Team Lead @ NX (Hack The Box)
+├── Affiliation: Cybersecurity Research Department - AAU (AAUC2)
+└── Specialization: Source Code Auditing, PoC Development & Red Teaming
