@@ -1,36 +1,86 @@
-# atrix187
+                         atrix187
+              offensive security / research
 
-> Offensive Security | Web Exploitation | Vulnerability Research
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  root@atrix:~$ whoami                                       │
+│                                                             │
+│  atrix187                                                   │
+│  Web Exploitation / Vulnerability Research / Red Team       │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 
-I break things, read source code, and occasionally write about it.
 
-**Focus**
+01 // IDENTITY
 
-`Web Exploitation` · `Vulnerability Research` · `Source Auditing` · `Red Teaming`
+root@atrix:~$ cat identity
 
----
+Security researcher focused on breaking applications,
+understanding vulnerabilities, and turning interesting
+bugs into reproducible attack chains.
 
-### Hack The Box
 
-[![HTB](https://htb-badge.vercel.app/api/profile/overview?username=atrix187&theme=dark)](https://app.hackthebox.com/profile/overview)
+02 // CURRENT OPERATIONS
 
-### GitHub
+root@atrix:~$ ps aux | grep security
 
-<img src="https://github-readme-stats.vercel.app/api?username=atrix187&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00F0FF&icon_color=00F0FF&text_color=8B949E" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=atrix187&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=8B949E" height="165">
+[RUNNING]  Web Application Exploitation
+[RUNNING]  Vulnerability Research
+[RUNNING]  Source Code Auditing
+[RUNNING]  Red Teaming
+[RUNNING]  Hack The Box
 
----
 
-### Writeups
+03 // ARSENAL
 
-| Target | Platform | Technique |
-|---|---|---|
-| **Silentium** | Hack The Box | Flowise RCE → Gogs Symlink RCE |
-| **Logging** | Hack The Box | AD / Shadow Credentials / DLL Hijacking / WSUS |
+root@atrix:~$ pacman -Q
 
----
+python        bash          javascript
+c/c++        burp-suite    ghidra
+nmap          ffuf          docker
+kali-linux   hack-the-box
 
-```text
-researching vulnerabilities
-building exploits
-breaking applications
+
+04 // HACK THE BOX
+
+root@atrix:~$ htb --status
+
+Professional
+Pro Hacker — Level 48
+Global Rank #690
+Team Rank #8
+
+
+05 // RESEARCH
+
+root@atrix:~$ ls ~/research
+
+CVE-2025-58434
+CVE-2025-8110
+CVE-2025-59528
+
+
+06 // WRITEUPS
+
+root@atrix:~$ cat ~/writeups
+
+Silentium
+  Flowise RCE → Gogs Symlink RCE
+
+Logging
+  SMB → Shadow Credentials → DLL Hijacking
+  → ESC17 → DNS → Rogue WSUS
+
+
+07 // JOURNAL
+
+root@atrix:~$ tail -f ~/journal
+
+[+] breaking things
+[+] reading source
+[+] researching vulnerabilities
+[+] building exploits
+[+] documenting findings
+
+
+root@atrix:~$ _
